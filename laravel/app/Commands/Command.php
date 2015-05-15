@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Cinema\Commands;
 
 abstract class Command {
 

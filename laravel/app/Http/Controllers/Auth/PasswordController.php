@@ -1,6 +1,6 @@
-<?php namespace App\Http\Controllers\Auth;
+<?php namespace Cinema\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use Cinema\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Foundation\Auth\ResetsPasswords;

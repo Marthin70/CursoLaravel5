@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'America/Mexico_City',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'es',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'Cinema\Providers\AppServiceProvider',
+		'Cinema\Providers\BusServiceProvider',
+		'Cinema\Providers\ConfigServiceProvider',
+		'Cinema\Providers\EventServiceProvider',
+		'Cinema\Providers\RouteServiceProvider',
 
 	],
 
