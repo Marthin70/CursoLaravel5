@@ -6,5 +6,4 @@ class Movie extends Model {
 
 	protected $table = "movies";
 
-
 }
