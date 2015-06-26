@@ -13,17 +13,18 @@
 
 			<div class="header-info">
 				<h1>BIG HERO 6</h1>
-				{!!Form::open(['action'=>'AuthController@Login','method'=>'POST'])!!}
-					<div class="form-group">
-						{!!Form::label('correo','Correo:')!!}	
-						{!!Form::email('email',null,['class'=>'form-control', 'placeholder'=>'Ingresa tu correo'])!!}
-					</div>
-					<div class="form-group">
-						{!!Form::label('contrasena','Contraseña:')!!}	
-						{!!Form::password('password',['class'=>'form-control', 'placeholder'=>'Ingresa tu contraseña'])!!}
-					</div>
-					{!!Form::submit('Iniciar',['class'=>'btn btn-primary'])!!}
-				{!!Form::close()!!}
+				<form>
+					 <div class="form-group">
+					    <label >Usuario</label>
+					    <input type="email" class="form-control" placeholder="ingresa usuario">
+  					</div>
+					  <div class="form-group">
+					    <label >Contraseña</label>
+					    <input type="password" class="form-control"  placeholder="ingresa contraseña">
+					  </div>
+  				<button type="submit" class="btn btn-primary">Login</button>
+				</form>
+				
 			</div>
 			
 		</div>

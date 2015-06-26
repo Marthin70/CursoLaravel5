@@ -26,7 +26,5 @@
 		@endforeach
 	</table>
 
-	{!!$users->render()!!}
-
 
 @stop
